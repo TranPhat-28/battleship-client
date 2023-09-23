@@ -1,11 +1,4 @@
-import { useEffect } from "react";
-import { themeChange } from "theme-change";
-
 const ThemeSwapButton = () => {
-    // Theme change
-    useEffect(() => {
-        themeChange(false);
-    }, []);
 
     return (
         <label className="swap swap-rotate">
