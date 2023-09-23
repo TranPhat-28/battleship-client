@@ -2,6 +2,7 @@ import { FaFacebookF, FaGoogle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const LoginPage = () => {
+
     return (
         <div className="h-full w-full bg-base-300 flex items-center justify-center p-2">
             <div className="bg-base-100 flex flex-col items-center rounded-lg w-full max-w-xl p-4">
